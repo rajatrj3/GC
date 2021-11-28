@@ -1,0 +1,51 @@
+@import 'utilities.css'
+
+:root{
+    --primary:##3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --aqua:#00ffff;
+
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing :antialiased;
+}
+body{
+    background-color:black;
+}
+header {
+    background-color:#898989;
+    height: 200px;
+}
+
+.btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:2px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+main{
+    background-color:black;
+    height: 550px;
+}
+footer{
+    background-color:white;
+    height: 25px;
+}
+.container{
+    max-width: 1152px;
+     padding: 0 15px;
+     margin: 0 auto;
+}
+header nav .left a{
+    color:(--pure);
+    text-decoration: none;
+}
